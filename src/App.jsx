@@ -3,7 +3,7 @@ import "./App.css";
 import * as tf from "@tensorflow/tfjs";
 import * as facemesh from "@tensorflow-models/facemesh";
 import Webcam from "react-webcam";
-
+ 
 function App() {
   const webcamRef = useRef(null);
   const canvasRef = useRef(null);
@@ -38,6 +38,7 @@ function App() {
         const face = await net.estimateFaces(video);
         console.log(face);
         
+
       }
   };
 
