@@ -1,4 +1,7 @@
-This project was bootstrapped with vite.
+Realtime AI Face Landmark Detector
+---------------------------------------
+
+Facial landmark recognition allows you to detect a number of different points on your face that together make up your eyes, mouth, ears, nose and so on. From there you're able to apply overlays aka filters to get your snap! But there's so much more that it can be used for like emotion analysis and face tracking. 
 
 # React + Vite
 
